@@ -1,9 +1,10 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-    entry: './src/index.js',  // 入口文件
-    output: {     // 打包生成的文件
-        filename: 'main.js',   // 文件名
-        path: path.resolve(__dirname, 'dist')   // 生成文件存放的目录
-    }
+  entry: "./src/index.js", // 指定构建的入口文件
+  output: {
+    // 指定打包输入的文件名和存放路径等
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist")
+  }
 };
