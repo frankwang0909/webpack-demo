@@ -1,5 +1,3 @@
- @charset "utf-8";
-/* 自定义 字体类型 */
 @font-face {
   font-family: "MyFont";
   src: url("./my-font.woff2") format("woff2"),
@@ -10,8 +8,10 @@
 
 .hello {
   color: red;
-  /* 添加背景图片 */
+  font-family: "MyFont";
   background: url("./icon.png");
-  /* 使用自定义的字体类型 */
-  font-family: 'MyFont';
+}
+
+.hello2 {
+  color: blanchedalmond;
 }
